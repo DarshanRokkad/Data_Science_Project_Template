@@ -51,6 +51,8 @@ Explain the problem solving approch
 ├── notebooks
 │   │
 │   └── experiment.ipynb                     <-- a jupyter notebook where eda and model training is performed
+│  
+├── resources                                <-- folder contains some usefull commands and steps used while build project 
 │   
 ├── src
 │   │
