@@ -19,12 +19,24 @@
 ============================================================
 
 2. To create and activate virtual environment
+
+			Method - 1 (using anaconda)
     -> "conda create -p venv python==3.11 -y" 
     -> "conda activate venv/"
-
     -> "conda deactivate" - deactivate virtual environment after using it to avoid conflict
 
     -> "conda --version" - to check conda is installed or not
+
+			Method - 2 (using python)
+    -> "python -m venv myenv"
+    -> "myenv\Scripts\activate"
+    -> "deactivate"
+	
+			Method - 3 (using linux method)
+    -> "pip install virtualenv"
+    -> "virtualenv -p python3 virtual_env"
+    -> "virtual_env\Scripts\activate"
+    -> "deactivate"
 
 ============================================================
 
