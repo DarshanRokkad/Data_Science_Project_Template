@@ -106,8 +106,6 @@ Click the below image to see vedio solution explaination.
 │          │     │
 │          │     ├── data_ingestion.py                 <-- this module downloads zip file dataset present in google drive and extracts zip file in local machine
 │          │     │
-│          │     ├── data_transformation.py            <-- this module pulls the vgg-16 base model and adds custom layers at the end then saves custom model
-│          │     │
 │          │     ├── model_trainer.py                  <-- this module take the custom model and train it with the training data and validates with validation data
 │          │     │
 │          │     └── model_evaluation.py               <-- this module test the trained model with the testing data and log the evaluation metrics and artifacts to dagshub using mlflow 
@@ -131,8 +129,6 @@ Click the below image to see vedio solution explaination.
 │          │     ├── __init__.py
 │          │     │
 │          │     ├── stage_01_data_ingestion.py        <-- module used to create a data ingestion configuration object and then ingest data into local machine
-│          │     │
-│          │     ├── stage_02_data_transformation.py   <-- module used to create custom model by using vgg-16 as base model and modify/add few fully connected layers at last
 │          │     │
 │          │     ├── stage_03_model_trainer.py         <-- module used to train custom model using training and validation data
 │          │     │
